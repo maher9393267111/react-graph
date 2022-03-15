@@ -36,7 +36,7 @@ import { POST_ADDED, POST_UPDATED, POST_DELETED } from '../graphql/subscriptions
 //   }
 // `;
 
-
+//ggggg
 
 
 
@@ -44,6 +44,7 @@ import { POST_ADDED, POST_UPDATED, POST_DELETED } from '../graphql/subscriptions
 
 
 function Home(props) {
+  const name ='maher'
   const { state, dispatch } = useContext(AuthContext);
   const [page, setPage] = useState(1);
 
